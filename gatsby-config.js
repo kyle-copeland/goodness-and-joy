@@ -3,21 +3,20 @@ module.exports = {
     title: "Goodness & Joy",
   },
   plugins: [
-    "gatsby-plugin-offline",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        icon: "src/images/icon.png",
-      },
-    },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        path: `${__dirname}/src/pages/`,
       },
-      __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/images/`,
+      },
     },
   ],
 };

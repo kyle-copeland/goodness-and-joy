@@ -1,0 +1,13 @@
+body {
+   font-size: 62.5%;
+   font-family: 'Vollkorn';
+}
+
+.Container {
+    max-width: 1000px;
+    margin: 5rem auto;
+}
+
+p {
+    font-size: 1.2rem;
+}
