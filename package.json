@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -27,5 +28,8 @@
     "gatsby-transformer-sharp": "^3.12.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
