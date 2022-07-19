@@ -2,6 +2,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import Layout from "../pages/layout"
 
 export default function Template({
   data,
@@ -10,17 +11,16 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   console.log(frontmatter);
   return (
-    <div className="Container">
+    <Layout>
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
         <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
-    </div>
+    </Layout>
   )
 }
 
