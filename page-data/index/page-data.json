@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"We need art: the importance of art for software developers","slug":"/art-and-code"}}},{"node":{"frontmatter":{"title":"What's the analog of software?","slug":"/whats-the-analog-of-software"}}},{"node":{"frontmatter":{"title":"The entanglement of humans and software","slug":"/the-entanglement-of-humans-and-software"}}}]}},"pageContext":{}},
+    "result": {"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"What's the analog of software?","slug":"/whats-the-analog-of-software"}}},{"node":{"frontmatter":{"title":"We need art: the importance of art for software developers","slug":"/art-and-code"}}},{"node":{"frontmatter":{"title":"The entanglement of humans and software","slug":"/the-entanglement-of-humans-and-software"}}}]}},"pageContext":{}},
     "staticQueryHashes": ["3159585216"]}
